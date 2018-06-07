@@ -8,5 +8,12 @@ class CreateDrinks < ActiveRecord::Migration[5.2]
 
       t.timestamps
     end
+
+    create_table :ingredients do |t|
+      t.references :drink, foreign_key: true
+      t.string :description
+
+      t.timestamps
+    end
   end
 end
