@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './App.css';
-import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider } from 'semantic-ui-react'
+import { Container, Header, Segment, Button, Dimmer, Loader, Divider } from 'semantic-ui-react';
 
-const HomeHeader = () => <Header as='h2' icon textAlign='center' color='teal'>
-  <Icon name='unordered list' circular />
-  <Header.Content>
-    List of Ingredients
-  </Header.Content>
-</Header>;
+import HomeHeader from './HomeHeader';
 
 const DrinksGroup = ({ drinks, drink, getDrink }) =>
   <span>
