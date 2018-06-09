@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Home tries snapshots 1`] = `
+<div
+  className="ui text container"
+>
+  <div
+    className="ui active transition visible inverted dimmer"
+    onClick={[Function]}
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="ui text loader"
+      >
+        loadingsss
+      </div>
+    </div>
+  </div>
+</div>
+`;

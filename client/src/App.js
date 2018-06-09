@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Home from './Home'
+import Home from './components/containers/HomeContainer'
 import NotFound from './NotFound'
 
 class App extends Component {

@@ -1,22 +1,6 @@
 const drinks = [
-    {
-        "id": 1,
-        "title": "Two-Minute Breakfast Boost",
-        "description": "Whizz up a low-fat breakfast smoothie in no time. Use banana with other soft fruit, plus honey for a little sweetness and oats for slow-release fuel.",
-        "steps": "Put all the ingredients in a blender and whizz for 1 min until smooth. Pour the mixture into two glasses to serve.",
-        "source": "https://www.bbcgoodfood.com/recipes/two-minute-breakfast-smoothie",
-        "created_at": "2018-06-09T00:22:22.524Z",
-        "updated_at": "2018-06-09T00:22:22.524Z"
-    },
-    {
-        "id": 2,
-        "title": "Kale And Hearty Smoothie",
-        "description": "Give yourself a dose of vitamin C in the morning with this vegan green smoothie. Along with kale and avocado, there's a hit of zesty lime and pineapple.",
-        "steps": "Put all of the ingredients into a bullet or smoothie maker, add a large splash of water and blitz. Add more water until you have the desired consistency.",
-        "source": "https://www.bbcgoodfood.com/recipes/kale-smoothie",
-        "created_at": "2018-06-09T00:22:22.993Z",
-        "updated_at": "2018-06-09T00:22:22.993Z"
-    }
+    {"id":1,"title":"Two-Minute Breakfast Boost","description":"Whizz up a low-fat breakfast smoothie in no time. Use banana with other soft fruit, plus honey for a little sweetness and oats for slow-release fuel.","steps":"Put all the ingredients in a blender and whizz for 1 min until smooth. Pour the mixture into two glasses to serve.","source":"https://www.bbcgoodfood.com/recipes/two-minute-breakfast-smoothie","created_at":"2018-06-09T00:22:22.524Z","updated_at":"2018-06-09T00:22:22.524Z","ingredients":[{"id":1,"description":"1 banana"},{"id":2,"description":"1 tbsp porridge oats"},{"id":3,"description":"80g soft fruit (like mango or strawberries)"},{"id":4,"description":"150ml milk"},{"id":5,"description":"1 tsp honey"},{"id":6,"description":"1 tsp vanilla extract"}]},
+    {"id":2,"title":"Kale And Hearty Smoothie","description":"Give yourself a dose of vitamin C in the morning with this vegan green smoothie. Along with kale and avocado, there's a hit of zesty lime and pineapple.","steps":"Put all of the ingredients into a bullet or smoothie maker, add a large splash of water and blitz. Add more water until you have the desired consistency.","source":"https://www.bbcgoodfood.com/recipes/kale-smoothie","created_at":"2018-06-09T00:22:22.993Z","updated_at":"2018-06-09T00:22:22.993Z","ingredients":[{"id":7,"description":"2 handfuls kale"},{"id":8,"description":"½ avocado"},{"id":9,"description":"½ lime, juice only"},{"id":10,"description":"large handful frozen pineapple chunks"},{"id":11,"description":"medium-sized chunk ginger"},{"id":12,"description":"1 tbsp cashew nuts"},{"id":13,"description":"1 banana, optional"}]}
 ]
 
 export default drinks;
