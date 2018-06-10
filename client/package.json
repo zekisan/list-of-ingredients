@@ -36,5 +36,10 @@
     "build-storybook": "build-storybook -s public",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
+  },
+  "jest": {
+    "collectCoverageFrom" : [
+      "src/components/**/*.{js,jsx}"
+    ]
   }
 }

@@ -5,7 +5,7 @@ import { Dimmer, Loader, Divider } from 'semantic-ui-react';
 import TitlesToggle from '../../components/presentational/Home/TitlesToggle';
 import Recipe from '../../components/presentational/Home/Recipe';
 
-class Home extends PureComponent {
+class RecipeContainer extends PureComponent {
   constructor() {
     super();
 
@@ -60,4 +60,4 @@ class Home extends PureComponent {
   }
 }
 
-export default Home;
+export default RecipeContainer;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipeContainer snapshot tries snapshots 1`] = `
+<span>
+  <div
+    className="ui active transition visible inverted dimmer"
+    onClick={[Function]}
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="ui text loader"
+      >
+        loading
+      </div>
+    </div>
+  </div>
+</span>
+`;

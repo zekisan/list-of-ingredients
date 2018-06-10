@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`testing HomeContainer tries snapshots 1`] = `
+exports[`HomeContainer tries snapshots 1`] = `
 <div
   className="ui text container"
 >
