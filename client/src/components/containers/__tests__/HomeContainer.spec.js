@@ -1,22 +1,22 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
-import Home from './Home';
-import drinks from './mocks/drinks'
+import HomeContainer from '../HomeContainer';
+import drinks from '../../../mocks/drinks'
 
-describe('testing Home', () => {
+describe('testing HomeContainer', () => {
     beforeEach(() => {
         fetch.resetMocks()
         fetch.mockResponseOnce(JSON.stringify({ drinks: drinks }))
     })
 
     it('renders without crashing', () => {
-        shallow(<Home />);
+        shallow(<HomeContainer />);
     });
 
     it('tries snapshots', () => {
         const tree = renderer
-            .create(<Home />)
+            .create(<HomeContainer />)
             .toJSON();
         
         expect(tree).toMatchSnapshot();

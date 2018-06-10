@@ -19,6 +19,7 @@ const Recipe = ({ drink }) => <span>
 </span>;
 
 Recipe.propTypes = {
+  /** the drink data */
   drink: PropTypes.object,
 };
 

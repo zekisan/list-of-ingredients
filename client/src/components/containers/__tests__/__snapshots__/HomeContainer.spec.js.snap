@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing HomeContainer tries snapshots 1`] = `
+<div
+  className="ui text container"
+>
+  <h2
+    className="ui teal icon center aligned header"
+  >
+    <i
+      aria-hidden="true"
+      className="paper plane outline circular icon"
+    />
+    <div
+      className="content"
+    >
+      List of Ingredients
+    </div>
+  </h2>
+  <div
+    className="ui hidden section divider"
+  />
+  <span>
+    <div
+      className="ui active transition visible inverted dimmer"
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="ui text loader"
+        >
+          loading
+        </div>
+      </div>
+    </div>
+  </span>
+</div>
+`;

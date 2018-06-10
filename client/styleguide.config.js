@@ -1,3 +1,3 @@
 module.exports = {
-    components: 'src/Home.js'
+    components: 'src/components/**/*.js'
 };
